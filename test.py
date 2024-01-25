@@ -1,7 +1,6 @@
 import streamlit as st
 import requests
 import pandas as pd
-from fastapi import FastAPI
 from happytransformer import HappyGeneration, GENSettings
 import nltk
 from rouge import Rouge
